@@ -1,0 +1,58 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'vs2017-win2016'
+
+trigger:
+  branches:
+    include:
+     - master
+
+steps:
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)\Websql'
+  inputs:
+    SourceFolder: Websql
+    Contents: '*.json'
+    TargetFolder: $(Build.ArtifactStagingDirectory)\Websql
+    CleanTargetFolder: true
+    OverWrite: true
+    
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)\Webapp'
+  inputs:
+    SourceFolder: Webapp
+    Contents: '*.json'
+    TargetFolder: $(Build.ArtifactStagingDirectory)\Webapp
+    CleanTargetFolder: true
+    OverWrite: true
+    
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)\keyVault'
+  inputs:
+    SourceFolder: keyVault
+    Contents: '*.json'
+    TargetFolder: $(Build.ArtifactStagingDirectory)\keyVault
+    CleanTargetFolder: true
+    OverWrite: true
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)\Vnet-Subnet'
+  inputs:
+    SourceFolder: Vnet-Subnet
+    Contents: '*.json'
+    TargetFolder: $(Build.ArtifactStagingDirectory)\Vnet-Subnet
+    CleanTargetFolder: true
+    OverWrite: true
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    pathtoPublish: $(Build.ArtifactStagingDirectory)
+    artifactName: drop
