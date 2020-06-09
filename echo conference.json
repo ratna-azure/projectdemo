@@ -1,0 +1,56 @@
+{
+	"paging": {
+		"Page": 1,
+		"PageSize": 10,
+		"TotalItemCount": 2,
+		"ShowAll": false,
+		"PageCount": 1
+	},
+	"filtering": {
+		"pattern": null,
+		"selectedTags": null,
+		"availableTags": null,
+		"groupBy": null
+	},
+	"apis": [
+		{
+			"id": "demoappnew",
+			"name": "demoappnew",
+			"description": "",
+			"isSoap": false,
+			"isCurrent": true,
+			"apiRevision": "1",
+			"apiRevisionDescription": "",
+			"apiVersion": null,
+			"apiVersionDescription": "",
+			"apiVersionSet": null,
+			"export": {
+				"openApi": "/signin-sso?token=token%3d%221%26202005271744%26DRBFTvAqXzTRzXq8mZ%2fO6JnSWSN8N%2btFQDNYqdwj8nJMPrUphDyCNOQeTFOZ%2fvjanolDvkQhXXVcpEx2dIZWYA%3d%3d%22%2c+refresh%3d%22true%22&returnurl=%2fdocs%2fservices%2fdemoappnew%2fexport%3fDocumentFormat%3dSwagger",
+				"openApi3Json": "/signin-sso?token=token%3d%221%26202005271744%26DRBFTvAqXzTRzXq8mZ%2fO6JnSWSN8N%2btFQDNYqdwj8nJMPrUphDyCNOQeTFOZ%2fvjanolDvkQhXXVcpEx2dIZWYA%3d%3d%22%2c+refresh%3d%22true%22&returnurl=%2fdocs%2fservices%2fdemoappnew%2fexport%3fDocumentFormat%3dOpenApiJson",
+				"openApi3": "/signin-sso?token=token%3d%221%26202005271744%26DRBFTvAqXzTRzXq8mZ%2fO6JnSWSN8N%2btFQDNYqdwj8nJMPrUphDyCNOQeTFOZ%2fvjanolDvkQhXXVcpEx2dIZWYA%3d%3d%22%2c+refresh%3d%22true%22&returnurl=%2fdocs%2fservices%2fdemoappnew%2fexport%3fDocumentFormat%3dOpenApi",
+				"wadl": "/signin-sso?token=token%3d%221%26202005271744%26DRBFTvAqXzTRzXq8mZ%2fO6JnSWSN8N%2btFQDNYqdwj8nJMPrUphDyCNOQeTFOZ%2fvjanolDvkQhXXVcpEx2dIZWYA%3d%3d%22%2c+refresh%3d%22true%22&returnurl=%2fdocs%2fservices%2fdemoappnew%2fexport%3fDocumentFormat%3dWadl",
+				"wsdl": null
+			}
+		},
+		{
+			"id": "echo-api",
+			"name": "Echo Conference",
+			"description": "",
+			"isSoap": false,
+			"isCurrent": true,
+			"apiRevision": "1",
+			"apiRevisionDescription": "",
+			"apiVersion": null,
+			"apiVersionDescription": "",
+			"apiVersionSet": null,
+			"export": {
+				"openApi": "/signin-sso?token=token%3d%221%26202005271744%26DRBFTvAqXzTRzXq8mZ%2fO6JnSWSN8N%2btFQDNYqdwj8nJMPrUphDyCNOQeTFOZ%2fvjanolDvkQhXXVcpEx2dIZWYA%3d%3d%22%2c+refresh%3d%22true%22&returnurl=%2fdocs%2fservices%2fecho-api%2fexport%3fDocumentFormat%3dSwagger",
+				"openApi3Json": "/signin-sso?token=token%3d%221%26202005271744%26DRBFTvAqXzTRzXq8mZ%2fO6JnSWSN8N%2btFQDNYqdwj8nJMPrUphDyCNOQeTFOZ%2fvjanolDvkQhXXVcpEx2dIZWYA%3d%3d%22%2c+refresh%3d%22true%22&returnurl=%2fdocs%2fservices%2fecho-api%2fexport%3fDocumentFormat%3dOpenApiJson",
+				"openApi3": "/signin-sso?token=token%3d%221%26202005271744%26DRBFTvAqXzTRzXq8mZ%2fO6JnSWSN8N%2btFQDNYqdwj8nJMPrUphDyCNOQeTFOZ%2fvjanolDvkQhXXVcpEx2dIZWYA%3d%3d%22%2c+refresh%3d%22true%22&returnurl=%2fdocs%2fservices%2fecho-api%2fexport%3fDocumentFormat%3dOpenApi",
+				"wadl": "/signin-sso?token=token%3d%221%26202005271744%26DRBFTvAqXzTRzXq8mZ%2fO6JnSWSN8N%2btFQDNYqdwj8nJMPrUphDyCNOQeTFOZ%2fvjanolDvkQhXXVcpEx2dIZWYA%3d%3d%22%2c+refresh%3d%22true%22&returnurl=%2fdocs%2fservices%2fecho-api%2fexport%3fDocumentFormat%3dWadl",
+				"wsdl": null
+			}
+		}
+	],
+	"pageTitle": "APIs"
+}
